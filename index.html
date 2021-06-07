@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="./node_modules/redux/dist/redux.min.js"></script>
+
+    <title>Redux avec Vanilla Javascript</title>
+  </head>
+  <body>
+    <h1>Notre application</h1>
+
+    <div class="section-one">
+      <div class="container">
+        <img src="./images/mobile-alt.svg" alt="phone" />
+        <p>Disponibilité: <span id="count"></span></p>
+        <button id="buy-phone">Acheter</button>
+      </div>
+
+      <div class="container">
+        <img src="./images/tablet-alt.svg" alt="tablettes" />
+        <p>Disponibilité: <span id="count-tab"></span></p>
+        <button id="buy-tablet">Acheter</button>
+      </div>
+
+      <div class="container">
+        <img src="./images/tv.svg" alt="tv" />
+        <p>Disponibilité: <span id="count-tv"></span></p>
+        <button id="buy-tv">Acheter</button>
+      </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

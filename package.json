@@ -1,0 +1,14 @@
+{
+  "name": "redux-vanilla-js",
+  "version": "1.0.0",
+  "description": "test redux avec vanilla js",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "valdo",
+  "license": "ISC",
+  "dependencies": {
+    "redux": "^4.1.0"
+  }
+}
